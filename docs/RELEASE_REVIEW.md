@@ -14,7 +14,7 @@ Prepared repository name: `cv-opd`. Distribution version: `0.2.0`. Import name: 
 
 ## Publication contents
 
-Include adapter sources, native tool bridge, runtime guard, scripts, tests, generic example configs, dependency manifest and review documentation. Exclude task/reference data, logs, runs, model weights, caches, local configs, credentials, dependency installations and runtime symlinks. The initial source release targets [nobecc/cv-opd](https://github.com/nobecc/cv-opd), branch `main`, at the project owner's request. Only the reviewed source, tests, generic configs and documentation are included.
+Include adapter sources, native tool bridge, runtime guard, scripts, tests, generic example configs and review documentation. Exclude task/reference data, logs, runs, model weights, caches, local configs, credentials, dependency installations and runtime symlinks. The initial source release targets [nobecc/cv-opd](https://github.com/nobecc/cv-opd), branch `main`, at the project owner's request. Only the reviewed source, tests, generic configs and documentation are included.
 
 The original Python module/environment-variable names are retained deliberately. The old project root still serves historical absolute paths and existing workers. New development/publication should use this source root; migrating a live controller and its run state is a separate operation.
 
@@ -27,3 +27,5 @@ This release is prepared for **source review**, not certified as a fresh end-to-
 External reproduction requires the recorded local Slime/finance extensions. Publishing this adapter alone does not supply those extensions, native assets, weights or access to the evaluator. There is no claim that vanilla upstream Slime is sufficient. Choose a project license separately before describing the repository as license-granted open source; no third-party license has been changed.
 
 The machine-readable review records the validation stage before publication. GitHub commit history records publication separately; it does not change the GPU-validation verdict or add the subsequently discussed cache-replay training scheme.
+
+The dependency snapshot manifest was removed at the project owner's request after the initial review. This does not remove the requirement for compatible local Slime/finance extensions.

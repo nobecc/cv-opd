@@ -183,7 +183,7 @@
     "checkpoint conversion/evaluation",
     "GitHub publication"
   ],
-  "external_dependencies": "compatible local extensions required; see UPSTREAM_INTERFACES.json",
+  "external_dependencies": "Compatible local Slime and finance extensions are required; see README.md.",
   "publication": "Historical status at validation completion: staged locally with no remote, commit or push. Subsequent publication is recorded in Git history.",
   "runtime_migration": "original finance_opd root retained for existing workers and historical paths"
 }
