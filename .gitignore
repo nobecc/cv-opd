@@ -1,0 +1,25 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/
+runs/
+validation/
+.test-deps/
+.runtime/
+.runtime
+.test-deps
+.cache/
+
+# Local settings, credentials, generated builds and editor state.
+.env
+.env.*
+!.env.example
+configs/*.local.json
+*.pem
+*.key
+.venv/
+build/
+dist/
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,42 @@
+{
+  "scope": "Read-only dependency snapshot for cv-opd v0.2 source release; local patches are required, HEAD alone is insufficient.",
+  "repositories": {
+    "slime": {
+      "head": "7824a79c506e153a7e837d9ce9de9275eaeb78af",
+      "local_worktree_may_differ": true,
+      "tracked_worktree_modified": true
+    },
+    "SAfactory": {
+      "head": "9d71ed23a247699c4635ccca412891053b8a897b",
+      "local_worktree_may_differ": true,
+      "tracked_worktree_modified": true
+    },
+    "pi-finance": {
+      "head": "548b3e8183be1a0fcff828dd87ce77ff71f176bc",
+      "local_worktree_may_differ": true,
+      "tracked_worktree_modified": true
+    },
+    "eval_finance": {
+      "head": "948c776a257affba0eaf9b08b9ad43063cede4b5",
+      "local_worktree_may_differ": true,
+      "tracked_worktree_modified": true
+    }
+  },
+  "source_sha256": {
+    "slime/train.py": "6cdaba114ddddca7492652c25e5a1b58c58f8c101811bfd6f07fa495ae35bfc2",
+    "slime/slime/utils/arguments.py": "40cd5f5abf05b8622c9d2075301bc637f82a32d54dc5002fb806671cc2eff0c2",
+    "slime/slime/ray/rollout.py": "dfc942220809f04e41d95bdb736533f273da360fa2a953dcb310944897051076",
+    "slime/slime/backends/megatron_utils/loss.py": "3245d1ed409c5b0ba02a06400cbefe7aebc831c2b8ae0004d3347761a840fa50",
+    "SAfactory/rl/examples/pi_finance/mask_builder.py": "13e0e215330aebfef35c8f95d6ed02dba0c90c95c6fd4000acf0b5d99545f4a1",
+    "SAfactory/rl/examples/pi_finance/model_provider.py": "18feaea65dee5dc8b72048ee4c2a578aa8a9ac8e83143ad96a61179abdc26d91",
+    "SAfactory/rl/mask/trajectory_mask_builder.py": "2e29d25234152585f5730c0a38a533fa18843a954a1881b85c28fb3c3478f91f",
+    "SAfactory/env/pi_finance/benchmark_budgets.yaml": "0d562996cd30b722c5dcb9af89ed67d8b86f23d1889a52e35cc0bf3c3e525c56",
+    "pi-finance/pifinance/run.py": "41c66636cb4bfe8366dd39e2232ce770dbdafe7a40d131b82743a3434fc1a75b",
+    "pi-finance/pifinance/safactory_transport.ts": "84804323a25812ba1f3ec9529ce9e2d8a4e84e5cd350ad10d1464ee102dd5477",
+    "slime/slime/utils/types.py": "6fd7602fbf5e298dbad3cbead6a9521ae263f6ea5905717a5c24fb82cdcebcd0",
+    "slime/slime/utils/ppo_utils.py": "fb71243564dc241cde95eecc5b84aeac218f36eb812c8d664fd414946a4d43c0",
+    "SAfactory/rl/examples/pi_finance/qwen_protocol.py": "e0ea8747f72a6274a544492c48eaa153fa9657cc934d21e39b68a9c798ab61f1",
+    "pi-finance/runtime.ts": "4947dc70dc044a751cabc79879bc37358c304aa6defb467179f09b7f08e0fe7c"
+  },
+  "review_date": "2026-11-26"
+}

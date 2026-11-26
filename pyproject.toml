@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-opd"
+version = "0.2.0"
+description = "Continuation-value guided on-policy distillation for financial research agents"
+requires-python = ">=3.11"
+dependencies = ["aiohttp>=3.9", "PyYAML>=6"]
+
+[tool.setuptools.packages.find]
+include = ["finance_opd*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

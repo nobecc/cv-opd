@@ -1,0 +1,35 @@
+{
+  "workspace": "../..",
+  "slime": "slime",
+  "safactory": "SAfactory",
+  "pi_finance": "pi-finance",
+  "dataset": "cv-opd/data/current/train.jsonl",
+  "output": "cv-opd/runs/qwen35_9b",
+  "student_model": "/models/student",
+  "teacher": {
+    "model": "/models/teacher",
+    "url": "http://127.0.0.1:31051",
+    "tensor_parallel_size": 2,
+    "context_length": 262144
+  },
+  "runtime": {
+    "temperature": 1.0,
+    "context_length": 262144,
+    "request_timeout_seconds": 600,
+    "require_weight_version": true,
+    "thinking": "off",
+    "tool_protocol": "qwen3_xml_v1"
+  },
+  "training": {
+    "gpus": 8,
+    "context_parallel_size": 8,
+    "rollout_tensor_parallel_size": 2,
+    "rollout_batch_size": 1,
+    "samples_per_task": 1,
+    "updates": 20,
+    "save_interval": 5,
+    "learning_rate": 5e-07,
+    "opd_coef": 1.0
+  },
+  "context_hook": null
+}
